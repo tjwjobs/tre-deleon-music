@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <title>Tre DeLeon Music</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <title>Tre DeLeon Music</title>
 </head>
+
 <body class="contact-body">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand nav-sub" href="#">Tre DeLeon Music</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -19,12 +21,37 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link nav-sub" href="index.html">Home</a>
-          <a class="nav-item nav-link active nav-sub" href="about.html">About<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link nav-sub" href="about.html">About</a>
           <a class="nav-item nav-link nav-sub" href="#">Projects</a>
-          <a class="nav-item nav-link nav-sub" href="contact.html">Contact</a>
+          <a class="nav-item nav-link active nav-sub" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </div>
       </div>
     </nav>
+  </header>
+
+  <section class="container-fluid">
+    <div class="row bg-color-contact">
+      <div class="col">
+        <h3 class="p-sub text-uppercase text-center contact-heading">Interested in booking me?</h3>
+        <h5 class="p-sub text-uppercase text-center text-bold">Let's work!</h5>
+        <p class="p-sub text-center contact-p">For commercial video and/or print, please contact my agent Unique Models & Talent: 
+        <a class="email-link" href="#">mary@uniquemodelsandtalent.com</a></p>
+        <div class="center-form">
+          <form>
+            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+            <textarea row="5" name="booking" id="booking" class="form-control" placeholder="Booking request" required></textarea>
+            <div class="form-row text-center">
+              <div class="col">
+                <button type="submit" class="btn btn-secondary">Send Booking Request</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <footer class="container-fluid">
     <div class="row">
@@ -75,9 +102,10 @@
 
     </div>
   </footer>
-    
+
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </html>

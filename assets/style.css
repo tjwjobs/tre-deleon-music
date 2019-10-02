@@ -28,6 +28,7 @@ html {
 }
 
 
+
 /*--------------------------------Images */
 
 body {
@@ -63,8 +64,17 @@ h4 {
     margin: 0
 }
 
+
+.text-bold {
+    font-weight: bold;
+}
+
 .col-sm-4 {
     padding-top:25px;
+}
+
+.bg-color-contact {
+    background-color: #0d0d0d80;
 }
 
 .uppercase {
@@ -114,6 +124,7 @@ h4 {
 
 .p-sub {
     font-family: 'Quicksand', sans-serif;
+    color: #fafafa;
 }
 
 .left-col-heading {
@@ -159,6 +170,35 @@ footer {
 
 .navbar-dark {
     background-color: #343a40eb; 
+}
+
+
+
+/*--------------------------------Booking */
+
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.contact-p {
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.center-form {
+    margin:0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #000066;
+}
+button[type="submit"]:hover {
+    background-color: black;
 }
 
 /*--------------------------------media queries */
