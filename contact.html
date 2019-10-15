@@ -28,7 +28,26 @@
       </div>
     </nav>
   </header>
-
+  
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   <section class="container-fluid">
     <div class="row bg-color-contact">
       <div class="col">
@@ -43,7 +62,7 @@
             <textarea row="5" name="booking" id="booking" class="form-control" placeholder="Booking request" required></textarea>
             <div class="form-row text-center">
               <div class="col">
-                <button type="submit" class="btn btn-secondary">Send Booking Request</button>
+                <button type="submit" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Send Booking Request</button>
               </div>
             </div>
           </form>
@@ -55,7 +74,7 @@
 
   <footer class="container-fluid">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 portfolio">
         <h4 class="uppercase general-sub">Portfolio</h4>
         <p class="p-sub">Need a copy of my portfolio? Download it here <a target="_blank" href="#">
           <i class="fa fa-download"></i>
