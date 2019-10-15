@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rufina&display=swap');
 
@@ -30,35 +29,36 @@ html {
 /*--------------------------------Images */
 
 body {
-    background: url(../images/tre-suit-profile-sm.jpg)no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
+    background: url(../images/tre-suit-profile-sm.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
 }
+
 .about-body {
-    background: url(../images/about.jpg)no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/about.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .contact-body {
-    background: url(../images/Downsize.jpg)no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/Downsize.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .project-body {
-    background: url(../images/store.jpg)no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/store.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -77,7 +77,7 @@ h4 {
 }
 
 .col-sm-4 {
-    padding-top:25px;
+    padding-top: 25px;
 }
 
 .bg-color-contact {
@@ -89,12 +89,12 @@ h4 {
 }
 
 .general-sub {
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #fafafa;
     font-weight: 300;
 }
 
-.social-links{
+.social-links {
     padding-bottom: 15px;
 }
 
@@ -121,8 +121,9 @@ h4 {
     color: #fafafa;
     transition: all .25s ease-in-out;
 }
+
 .fa-download:hover {
-    color:#000099;
+    color: #000099;
 }
 
 .nav-sub {
@@ -146,20 +147,21 @@ h4 {
 
 .block-divider {
     background-color: #fafafa;
-    width:220px;
+    width: 220px;
     height: 0px;
     margin-top: 0px;
     margin-bottom: 3px;
 }
 
 .left-index {
-    position: absolute;left: 5%;
+    position: absolute;
+    left: 5%;
     margin-top: 10%;
     color: #fafafa;
 }
 
 .left-ind-text {
-    font-family: 'Rufina',serif;
+    font-family: 'Rufina', serif;
     text-align: center;
 }
 
@@ -174,7 +176,7 @@ h4 {
 
 
 .circle-text {
-    font-family: 'Rufina',serif;
+    font-family: 'Rufina', serif;
     text-align: center;
     margin-top: 60px;
 }
@@ -184,14 +186,15 @@ h4 {
 footer {
     background-color: #00001af7;
     color: #fafafa;
-    position: absolute;bottom:0px;
+    position: absolute;
+    bottom: 0px;
 }
 
 /*--------------------------------Content divs */
 
 .left-col {
-    height:500px;
-    width:50%;
+    height: 500px;
+    width: 50%;
     font-size: 20px;
 }
 
@@ -199,7 +202,8 @@ footer {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    position: absolute;right: 13%;
+    position: absolute;
+    right: 13%;
     background-color: #0d0d0dd6;
     margin-top: 15px;
     color: #fafafa;
@@ -210,7 +214,8 @@ footer {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    position: absolute;left: 13%;
+    position: absolute;
+    left: 13%;
     background-color: #0d0d0dd6;
     margin-top: 15px;
     color: #fafafa;
@@ -228,8 +233,36 @@ footer {
 }
 
 .tell-ipad {
-    margin-top: 10%;
-    position: absolute;right: 10px
+    margin-top: 15%;
+    position: absolute;left: 4%;
+}
+
+.ipad-text {
+    margin-top: 5%;
+    position: absolute;left: 5%;
+    color: #fafafa;
+    font-family: 'Rufina', serif;
+    text-align: center;
+}
+.ipad-text-right {
+    padding-top: 5%;
+    margin-left: 55%;
+    color: #fafafa;
+    font-family: 'Rufina', serif;
+    text-align: center;
+}
+
+.ipad-block {
+    margin-top: 11%;
+    position: absolute;left: 9%;
+    color: #fafafa;
+    text-align: center;
+}
+.ipad-block-right {
+    margin-top: 5px;
+    position: absolute;right: 8%;
+    color: #fafafa;
+    text-align: center;
 }
 
 
@@ -240,7 +273,7 @@ footer {
 }
 
 .navbar-dark {
-    background-color: #343a40eb; 
+    background-color: #343a40eb;
 }
 
 
@@ -251,6 +284,7 @@ footer {
     margin-top: 25px;
     margin-bottom: 20px;
 }
+
 .contact-p {
     font-weight: bold;
     font-size: 15px;
@@ -259,15 +293,16 @@ footer {
 }
 
 .center-form {
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 50%;
 }
 
-button[type="submit"]{
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #000066;
 }
+
 button[type="submit"]:hover {
     background-color: black;
 }
@@ -277,7 +312,7 @@ button[type="submit"]:hover {
 @media (min-width: 320px) and (max-width:375px) {
     .left-col {
         height: 75%;
-        width: 100%; 
+        width: 100%;
     }
     .left-col-p {
         font-size: 15px;
@@ -309,14 +344,17 @@ button[type="submit"]:hover {
         display: none;
     }
     .contact-p {
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-.main {
-    height: 250px;
-}
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .main {
+        height: 250px;
+    }
+    .ipad-media {
+        display: none;
+    }
+
 }
 
 @media (min-width: 376px) and (max-width:767px) {
@@ -337,11 +375,14 @@ button[type="submit"]:hover {
         display: none;
     }
     .contact-p {
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 25px;
-    margin-top: 10px;
-}
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    .ipad-media {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
