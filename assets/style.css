@@ -253,7 +253,7 @@ footer {
 }
 .contact-p {
     font-weight: bold;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 30px;
     margin-top: 10px;
 }
@@ -295,10 +295,28 @@ button[type="submit"]:hover {
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    .social-about {
+
+    .empty {
         display: none;
     }
-    
+    .circle-right {
+        display: none;
+    }
+    .circle-left {
+        display: none;
+    }
+    .work {
+        display: none;
+    }
+    .contact-p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.main {
+    height: 250px;
+}
 }
 
 @media (min-width: 376px) and (max-width:767px) {
@@ -315,9 +333,15 @@ button[type="submit"]:hover {
     .left-col-p {
         font-size: 18px;
     }
-
-        
+    .work {
+        display: none;
     }
+    .contact-p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
