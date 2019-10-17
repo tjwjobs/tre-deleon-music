@@ -250,6 +250,8 @@ footer {
     color: #fafafa;
     font-family: 'Rufina', serif;
     text-align: center;
+    font-size: 28px;
+
 }
 
 .ipad-block {
@@ -263,6 +265,10 @@ footer {
     position: absolute;right: 8%;
     color: #fafafa;
     text-align: center;
+}
+
+.mobile-media {
+    margin: 20% 15%;
 }
 
 
@@ -357,6 +363,12 @@ button[type="submit"]:hover {
 
 }
 
+@media (min-width: 320px) {
+    .mobile-media {
+        margin: 10%;
+    }
+}
+
 @media (min-width: 376px) and (max-width:767px) {
     .left-col {
         width: 100%;
@@ -383,6 +395,12 @@ button[type="submit"]:hover {
     .ipad-media {
         display: none;
     }
+    .empty {
+        display: none;
+    }
+    .mobile-media {
+        margin-left: 20%;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
@@ -402,10 +420,16 @@ button[type="submit"]:hover {
     .left-index {
         margin-top: 20%;
     }
+    .mobile-media {
+        display: none;
+    }
 }
 
 @media (min-width:1025px) {
     .ipad-media {
+        display: none;
+    }
+    .mobile-media {
         display: none;
     }
 }
